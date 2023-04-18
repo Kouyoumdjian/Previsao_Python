@@ -2,7 +2,7 @@ import requests
 
 cidade = input("Qual cidade do Brasil você deseja saber a previsão do tempo? ")
 
-url = f"http://api.openweathermap.org/data/2.5/weather?q={cidade},BR&appid=332c5f7091420efab975c2970262bbd9"
+url = f"http://api.openweathermap.org/data/2.5/weather?q={cidade},BR&appid=SUACHAVE"
 
 response = requests.get(url)
 
